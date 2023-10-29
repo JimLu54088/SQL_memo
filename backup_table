@@ -1,0 +1,3 @@
+CREATE TABLE student_bk LIKE student;
+
+INSERT INTO student_bk SELECT * FROM student;
